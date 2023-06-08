@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://w.wallhaven.cc/full/45/wallhaven-45j8k7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .first-buttons li{
+    display: inline;  
+  }
+  .first-buttons a{
+    text-decoration: none;
+    padding: 3px 180px;
+    color: #c08d00;
+    font-size: 32px;
+  }
+  .first-buttons a:hover{
+    color: black;
+  }
+
+  .welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 124px;
+    color: #c08d00;
+    margin-top: -20px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #33333300;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-media ul li {
+    display: inline;
+    text-align: center;
+  }
+  
+  .social-media ul li a {
+    font-size: 64px;
+    padding: 3px;
+    text-decoration: none;
+    color: #c08d00;
+  }
+  
+  .social-media ul li a:hover {
+    color: black;
+  }
+  
+  body.hakkımda{
+    background-image: url("https://w.wallhaven.cc/full/45/wallhaven-45j8k7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+  }
+  .foto {
+    padding: 50px 75px;
+    width: 200px;
+    height: 250px;
+    float: left;
+  }
+  .ben-huseyins{
+    font-size: 75px;
+    padding-top: 145px;
+  }
+  .hakkımda-cv{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #c08d00;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 950px;
+    margin-top: -100px;
+  }
+  .frame {
+    margin: 30px;
+    height: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: black;
+
+  }
+  .otobiyografi {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px 30px 80px 30px;
+  }
+  body.gundem{
+    background-image: url("https://w.wallhaven.cc/full/45/wallhaven-45j8k7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+  }
+  .doviz{
+    background-image: url("doviz-foto.jpg");
+    margin: 30px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+    background-repeat: no-repeat;
+    width: 650px;
+    background-size: cover;
+    background-position: center;
+  }
+  .dovizfoto{
+    width: 650px;
+    height: 200px;
+    border-radius: 4px;
+  }
+  .h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: -50px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+  }
+  .doviz a h3:hover{
+    color: black;
+  }
+  .doviz a{
+    text-decoration: none;
+  }
+  .kariyer{
+    margin: 30px;
+    margin-top: 100px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+    background-repeat: no-repeat;
+    width: 650px;
+    background-size: cover;
+    background-position: center;;
+  }
+  .kariyerfoto{
+    width: 650px;
+    height: 200px;
+    border-radius: 4px;
+  }
+  .kariyer a{
+    text-decoration: none;
+  }
+  .kariyer a h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    
+  }
+  .kariyer a h3:hover{
+    color: black;
+  }
+  .emlak{
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+    background-repeat: no-repeat;
+    width: 650px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 800px;
+    margin-top: -535px;
+  }
+  .emlakfoto{
+    width: 650px;
+    height: 200px;
+  }
+  .emlak a{
+    text-decoration: none;
+  }
+  .emlak a h3:hover{
+    color: black;
+  }
+  .emlak a h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+  }
+  .haber{
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+    background-repeat: no-repeat;
+    width: 650px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 800px;
+    margin-top: 100px;
+  }
+  .haber a{
+    text-decoration: none;
+  }
+  .haber a h3:hover{
+    color: black;
+  }
+  .haber a h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+  }
+  .haberfoto{
+    width: 650px;
+    height: 200px;
+  }
+    body.iletisim{
+    background-image: url("https://w.wallhaven.cc/full/45/wallhaven-45j8k7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    }
+    .iletisim-bilgiler{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: #ffffff;
+      width: 360px;
+      height: 600px;
+      padding-left: 30px;
+      padding-top: 150px;
+    }
+    .iletisim-konum{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 25px;
+    }
+    .iletisim-konum:hover{
+      color: blue;
+    }
+    .iletisim-baslik{
+      font-size: 35px;
+      color: #c08d00;
+    }
+    .iletisim-mesaj{
+      height: 500px;
+      background-repeat: no-repeat;
+      width: 650px;
+      background-size: cover;
+      background-position: center;
+      margin-left: 800px;
+      margin-top: -608px;
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #c08d00;
+    }
+    .text-isim{
+      width: 150px;
+      height: 25px;
+      resize: none;
+      border-radius: 4px;
+      outline: none;
+      border-color: #c08d00;
+    }
+    .text-mail{
+      width: 250px;
+      height: 25px;
+      resize: none;
+      border-radius: 4px;
+      outline: none;
+      border-color: #c08d00;
+    }
+    .text-mesaj{
+      width: 413px;
+      height: 200px;
+      resize: none;
+      border-radius: 4px;
+      outline: none;
+      border-color: #c08d00;
+    }
+    .iletisim-mesaj textarea:is(:focus, :valid){
+      border-color: black;
+
+    }
+    .iletisim-button{
+      border-radius: 4px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #ffffff;
+      margin-left: 100px;
+      margin-top: 15px;
+      width: 170px;
+      height: 40px;
+      background-color: #c08d00;
+      text-align: center;
+      align-items: center;
+      padding-top: 5px;
+    }
+    .iletisim-button a{
+      text-decoration: none;
+      font-family: 'Times New Roman', Times, serif;
+      color: #ffffff;
+      
+    }
+    .iletisim-button:hover{
+      border-color: black;
+    }
+    .iletisim-button a:hover{
+      color: black;
+    }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+</head>
+<body class="iletisim">
+    <header class="first-buttons">
+        <ul>
+            <li><a href="hakkımda.html">Hakkımda</a></li>
+            <li><a href="gündem.html">Gündem</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+        </ul>
+      </header>
+      <div class="iletisim-bilgiler">
+        <h2 class="iletisim-baslik">Kişisel Bilgilerim</h2>
+        <h3 class="iletisim-ad"><i class="fa-solid fa-user"></i>Hüseyin Alakuş</h3>
+        <h3 class="iletisim-tel"><i class="fa-solid fa-phone"></i>+905456519605</h3>
+        <h3 class="iletisim-mail"><i class="fa-solid fa-envelope">huseyinn.alakuss@gmail.com</i></h3>
+        <a class="iletisim-konum" href="https://www.google.com/maps/dir/38.9024802,40.4925847//@38.9024414,40.4912862,17.78z/data=!4m2!4m1!3e0?entry=ttu"><i class="fa-solid fa-location-dot"></i> Konum</a>
+      </div>
+      <div class="iletisim-mesaj">
+        <h2 class="iletisim-baslik2">Benimle İletişime Geçin</h2>
+        <textarea class="text-isim" placeholder="İsim Soyisim" required></textarea>
+        <textarea class="text-mail" placeholder="E-Mail" required></textarea>
+        <textarea class="text-mesaj" placeholder="Mesajınızı Yazın..." required></textarea>
+        <div class="iletisim-button">
+            <a href="#" onclick="clearTextareas()">Mesajı Gönder</a>
+        </div>
+      </div>
+      <script>
+        function clearTextareas() {
+          var textareas = document.querySelectorAll('.iletisim-mesaj textarea');
+          textareas.forEach(function(textarea) {
+            textarea.value = '';
+          });
+        }
+      </script>
+      <footer class="social-media">
+        <ul>
+            <li><a href="https://www.instagram.com/huseynalakus/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/HuseynAlakus"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/HuseyinAlakus"><i class="fab fa-github"></i></a></li>
+        </ul>
+    
+      </footer>
+    
+</body>
+</html>
